@@ -104,3 +104,35 @@ body > * {
     margin-top: 10px;
 }
 
+.cta {
+    margin: 100px 300px;
+    
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 10px;
+
+    padding: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta h4 {
+    font-size: 22px;
+}
+
+.cta button {
+    background-color: transparent;
+    outline: none;
+    border: solid 3px #fff;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #e5e7eb;
+    text-align: center;
+}
