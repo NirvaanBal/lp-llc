@@ -8,10 +8,13 @@ body {
     font-family: sans-serif;
 }
 
+body > * {
+    padding: 30px 300px;
+}
+
 .header {
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 30px;
 
     display: flex;
     justify-content: space-between;
@@ -23,4 +26,9 @@ body {
     color: #f9faf8;
     text-decoration: none;
     margin-left: 10px;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
 }
