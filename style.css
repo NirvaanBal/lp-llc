@@ -7,3 +7,20 @@
 body {
     font-family: sans-serif;
 }
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header a {
+    color: #f9faf8;
+    text-decoration: none;
+    margin-left: 10px;
+}
