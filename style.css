@@ -31,4 +31,34 @@ body > * {
 .hero {
     background-color: #1f2937;
     color: #f9faf8;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+
+    padding-bottom: 60px;
+}
+
+.hero .welcome h2 {
+    font-size: 50px;
+}
+
+.hero .welcome p {
+    margin: 20px 0;
+}
+
+.hero .welcome button {
+    background-color: #3882f6;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+.hero img {
+    width: auto;
+    height: 300px;
 }
